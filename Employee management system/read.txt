@@ -1,0 +1,22 @@
+admin :username-admin
+       password-12345
+
+uer :username-chathura
+     password-54321
+
+you need to microsoft SQL server management studio to run databse.
+
+First you need to Change the authentication to SQL Server Authentication.(image 1)
+
+1)right click on "Databases" folder and click "Import Data-Tier Application"(you need to import test and login database)
+and "test"database import.
+and "login"database  import.
+
+*open project in netbeans and go to user demo/user.demo/signup.java(double click and open ) and double click on Login Button.
+and find this line. "String url="jdbc:sqlserver://localhost:1433;databaseName=login;user=sa;password=Rathnayaka@123";".
+
+*you need to change user and password(which in sql server authentication).
+
+  ****************************************
+if you get any error please send screen shot to my whatsapp number
+whatsapp:+94718831661
